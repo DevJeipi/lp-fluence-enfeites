@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import TextType from "@/components/TextType";
 
 export function Hero() {
   return (
@@ -20,9 +21,18 @@ export function Hero() {
       {/* Content */}
       <div className="container relative z-10 mx-auto px-4 lg:px-8 pt-20">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-secondary-foreground mb-6 text-balance">
-            Excelência em Injeção Plástica e Metalização
-          </h1>
+          <TextType
+            text={[
+              "Injeção em Plástico",
+              "Metalização a Vácuo",
+              "Enfeites e Acessórios!",
+            ]}
+            typingSpeed={75}
+            pauseDuration={3000}
+            showCursor={true}
+            cursorCharacter="|"
+            className="text-primary-foreground text-5xl md:text-6xl lg:text-7xl font-bold mb-6 min-h-14"
+          />
           <p className="text-lg md:text-xl lg:text-2xl text-secondary-foreground/90 mb-8 max-w-3xl mx-auto text-pretty leading-relaxed">
             12 anos transformando plástico em soluções de alto valor.
             Especialistas em metalização a vácuo para enfeites e acessórios.
