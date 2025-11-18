@@ -9,7 +9,6 @@ export const metadata: Metadata = {
   title: "Fluence Enfeites - Injeção Plástica e Metalização a Vácuo",
   description:
     "Especializada em injeção de enfeites e acessórios plásticos. 12 anos de experiência em metalização a vácuo.",
-  generator: "v0.app",
   icons: {
     icon: [
       {

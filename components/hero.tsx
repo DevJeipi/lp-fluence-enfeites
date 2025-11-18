@@ -14,7 +14,7 @@ export function Hero() {
           alt="Fábrica de injeção plástica"
           className="w-full h-full object-cover opacity-30"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-secondary/90 via-secondary/80 to-secondary" />
+        <div className="absolute inset-0 bg-linear-to-b from-secondary/90 via-secondary/80 to-secondary" />
       </div>
 
       {/* Content */}
