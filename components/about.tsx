@@ -1,10 +1,9 @@
-import { Award, Target, TrendingUp } from "lucide-react";
-
 export function About() {
   return (
-    <section id="sobre" className="py-16 lg:py-24 bg-background">
+    <section id="sobre" className="py-24 lg:py-32 bg-background">
       <div className="container mx-auto px-4 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-16">
+        {/* Hero com Imagem */}
+        <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center mb-24">
           <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
             <img
               src="/professional-plastic-injection-molding-factory-mac.jpg"
@@ -13,57 +12,55 @@ export function About() {
             />
           </div>
           <div>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 text-balance">
-              Tradição e Inovação
+            <h2 className="text-5xl md:text-6xl lg:text-7xl font-light text-foreground mb-8 leading-tight">
+              Tradição <br /> e Inovação
             </h2>
-            <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+            <p className="text-lg text-muted-foreground mb-8 leading-relaxed max-w-md">
               Com mais de uma década de experiência, nos consolidamos como
               referência em injeção plástica e metalização a vácuo no mercado
               brasileiro.
             </p>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Nossa expertise combina tecnologia de ponta com processos
-              tradicionais aperfeiçoados ao longo dos anos, garantindo produtos
-              de qualidade superior para nossos clientes.
-            </p>
           </div>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 lg:gap-12">
-          <div className="text-center">
-            <div className="inline-flex items-center justify-center w-16 h-16 rounded-lg bg-primary/10 mb-4">
-              <Award className="w-8 h-8 text-primary" />
+        {/* Valores sem Cards - Apenas Tipografia */}
+        <div className="grid md:grid-cols-3 gap-16 lg:gap-24">
+          <div>
+            <div className="mb-6">
+              <span className="text-6xl md:text-7xl font-light text-primary">
+                12
+              </span>
+              <p className="text-xs uppercase tracking-widest text-muted-foreground mt-2">
+                Anos de Experiência
+              </p>
             </div>
-            <h3 className="text-xl font-semibold text-foreground mb-3">
-              12 Anos de Experiência
-            </h3>
-            <p className="text-muted-foreground leading-relaxed">
+            <p className="text-muted-foreground leading-relaxed text-sm">
               Mais de uma década dedicada à excelência em metalização a vácuo e
               injeção plástica de alta precisão.
             </p>
           </div>
 
-          <div className="text-center">
-            <div className="inline-flex items-center justify-center w-16 h-16 rounded-lg bg-primary/10 mb-4">
-              <Target className="w-8 h-8 text-primary" />
+          <div>
+            <div className="mb-6">
+              <h3 className="text-4xl font-light text-foreground">Precisão</h3>
+              <p className="text-xs uppercase tracking-widest text-muted-foreground mt-2">
+                Em cada detalhe
+              </p>
             </div>
-            <h3 className="text-xl font-semibold text-foreground mb-3">
-              Precisão e Qualidade
-            </h3>
-            <p className="text-muted-foreground leading-relaxed">
+            <p className="text-muted-foreground leading-relaxed text-sm">
               Processos rigorosos de controle garantem produtos com acabamento
               impecável e durabilidade superior.
             </p>
           </div>
 
-          <div className="text-center">
-            <div className="inline-flex items-center justify-center w-16 h-16 rounded-lg bg-primary/10 mb-4">
-              <TrendingUp className="w-8 h-8 text-primary" />
+          <div>
+            <div className="mb-6">
+              <h3 className="text-4xl font-light text-foreground">Inovação</h3>
+              <p className="text-xs uppercase tracking-widest text-muted-foreground mt-2">
+                Sempre evoluindo
+              </p>
             </div>
-            <h3 className="text-xl font-semibold text-foreground mb-3">
-              Tecnologia Avançada
-            </h3>
-            <p className="text-muted-foreground leading-relaxed">
+            <p className="text-muted-foreground leading-relaxed text-sm">
               Equipamentos modernos e técnicas inovadoras para atender às
               demandas mais exigentes do mercado.
             </p>
